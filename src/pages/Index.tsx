@@ -1,12 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
 
-const Index = () => {
+import React from 'react';
+import Header from '../components/Header';
+import HeroBanner from '../components/HeroBanner';
+import ProductGrid from '../components/ProductGrid';
+import FlashSale from '../components/FlashSale';
+import CategorySection from '../components/CategorySection';
+import BrandSection from '../components/BrandSection';
+import BlogSection from '../components/BlogSection';
+import ReviewSection from '../components/ReviewSection';
+import Footer from '../components/Footer';
+
+const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      
+      <main className="flex-grow">
+        <HeroBanner />
+        <CategorySection />
+        <ProductGrid 
+          title="Featured Products" 
+          subtitle="Discover our top-rated products and best sellers"
+        />
+        <FlashSale />
+        <BrandSection />
+        <BlogSection />
+        <ReviewSection />
+      </main>
+      
+      <Footer />
     </div>
   );
 };
