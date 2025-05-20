@@ -7,3 +7,5 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+live: https://vendor-ecomerce-git-main-nishat009s-projects.vercel.app/
