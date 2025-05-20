@@ -17,17 +17,17 @@ const brands: Brand[] = [
   {
     id: 2,
     name: "AudioPro",
-    logo: "https://images.unsplash.com/photo-1603380378466-b945f60f8b09"
+    logo: "https://images.unsplash.com/photo-1618233981844-b8dc84829894?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 3,
     name: "UrbanGear",
-    logo: "https://images.unsplash.com/photo-1638272181913-5d903519ee84"
+    logo: "https://images.unsplash.com/photo-1624762335025-2a879b8de9a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 4,
     name: "SmartTech",
-    logo: "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf"
+    logo: "https://images.unsplash.com/photo-1646766360897-34c92cb6545a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 5,

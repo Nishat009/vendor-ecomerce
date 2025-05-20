@@ -5,13 +5,6 @@ import { ArrowRight } from 'lucide-react';
 const HeroBanner: React.FC = () => {
   return (
     <section className="relative bg-gradient-to-r from-magenta-dark to-hotpink-dark text-white py-16 md:py-24">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-y-0 left-0 w-1/3 bg-white opacity-10 transform -skew-x-12"></div>
-        <div className="absolute top-0 right-0 w-72 h-72 bg-boldred rounded-full opacity-30 blur-3xl -translate-y-1/2 translate-x-1/3"></div>
-        <div className="absolute bottom-0 left-1/4 w-64 h-64 bg-magenta rounded-full opacity-20 blur-2xl translate-y-1/2"></div>
-      </div>
-
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 lg:pr-12 mb-10 lg:mb-0 animate-fade-in">
@@ -35,9 +28,16 @@ const HeroBanner: React.FC = () => {
           <div className="lg:w-1/2 animate-scale-in">
             {/* Hero Image */}
             <div className="relative">
-              <div className="w-[320px] md:w-[400px] h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+              <div className="w-[320px] md:w-[400px] h-[400px] md:h-[500px] rounded-3xl mb-20 ml-40 absolute top-[40px] overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                  src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Fashion model with products"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-[320px] md:w-[400px] h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl ">
+                <img 
+                  src="https://images.unsplash.com/photo-1731763104706-a70d249efb71?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Fashion model with products"
                   className="w-full h-full object-cover"
                 />
